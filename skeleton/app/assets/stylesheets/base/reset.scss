@@ -10,7 +10,7 @@ span, article, footer, time, small {
   border: inherit;
   outline: inherit;
   font: georgia;
-  color: #f7f7f5;
+  color: black;
   text-align: inherit;
   text-decoration: none;
   vertical-align: inherit;
@@ -19,12 +19,12 @@ span, article, footer, time, small {
 }
 
 ol, ul {
-  list-style: inherit;
+  list-style: none;
 }
 
 img {
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
@@ -45,11 +45,13 @@ button {
 
 button,
 input[type="submit"] {
-  cursor: auto;
+  cursor: pointer;
 }
 
 /* Clearfix */
 
 .group:after {
-  // ...
+  content: "";
+  clear: both;
+  display: table;
 }

@@ -1,20 +1,24 @@
 /* Define application-wide selectors here!*/
 
+
 html {
 	position: relative;
 	height: 100%;
 }
 
 body {
-	// ...
+  width: 80%;
+  margin: 0 auto;
+  font-family: $serif;
+  font-size: 12px;
 }
 
-button {
-	// background-color:
-	// border-color:
-	// color:
+#subscribe-now-btn {
+	background-color: blue;
+	border-color: red;
+	color: white;
 	// font-weight:
-	// padding:
+	padding: 5px;
 	// border-radius:
 	// transition:
 	// font-family:
