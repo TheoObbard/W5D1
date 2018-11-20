@@ -4,7 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .language-nav {
@@ -16,7 +16,12 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
-  margin-top: -50px;
+  margin-top: -10px;
+}
+
+strong {
+  color: black;
+  font-weight: bold;
 }
 
 .language-nav a {
@@ -48,7 +53,7 @@
 
 .masthead-links li {
 	margin-left: 10px;
-	border-right: 1px solid $light-gray;
+	// border-right: 1px solid $light-gray;
 }
 
 .masthead-links button {
@@ -75,4 +80,9 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+img {
+  height: 60px;
+  width: auto;
 }
