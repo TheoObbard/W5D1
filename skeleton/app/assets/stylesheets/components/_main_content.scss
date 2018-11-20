@@ -1,3 +1,67 @@
 .main_content {
   display: flex;
+  padding-top: 15px
+}
+
+h1 {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h5 {
+  color: $gray;
+}
+
+aside {
+  width :40%;
+}
+
+aside li {
+  list-style-type: circle;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+.center_body {
+  padding: 0px 30px 0px 30px;
+}
+
+.office_photo {
+    height: 90px;
+    width: 100px;
+    overflow: hidden;
+    // margin: -75px 0 0 -100px;
+
+}
+
+.lft {
+  width: 50%;
+}
+
+.rt {
+  width: 50%;
+}
+
+.right_body ul {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.right_body {
+  // display: center;
+  // margin-right: 100px;
+  // display: flex;
+  // flex-direction: row;
 }
