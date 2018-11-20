@@ -27,3 +27,14 @@ nav {
 nav li {
   height: 25px;
 }
+
+.section_nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section_nav ul > li {
+  margin-right: 10px;
+}
+
